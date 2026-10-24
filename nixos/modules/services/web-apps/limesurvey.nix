@@ -28,7 +28,7 @@ let
   fpm = config.services.phpfpm.pools.limesurvey;
 
   # https://github.com/LimeSurvey/LimeSurvey/blob/master/.github/workflows/main.yml
-  php = pkgs.php83;
+  php = pkgs.php85;
 
   user = "limesurvey";
   group = config.services.${cfg.webserver}.group;
